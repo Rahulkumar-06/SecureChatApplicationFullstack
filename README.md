@@ -118,9 +118,5 @@ Admin can :
 ##### Step 4 — Login as Admin or Soldier
 Begin secure real-time communication.
 
-### Contact
-#### Name: Rahulkumar C
-#### Phone: 8870822514
-#### Email: rahulkumarc679@gmail.com
 
 
