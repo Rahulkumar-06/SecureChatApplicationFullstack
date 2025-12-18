@@ -26,7 +26,9 @@ export default function ChatRoom({ token, username }) {
   if (!username || !receiver) return;
 
   axios
-    .get(`http://localhost:8080/soldier/privetchat?sender=${username}&receiver=${receiver}`)
+    .get(`http://localhost:8080/soldier/privetchat?sender=${username}&receiver=${receiver}`,
+      { headers: { Authorization: `Bearer ${token}` } }
+    )
     .then((res) => {
       setChatMessages(res.data);
     })
